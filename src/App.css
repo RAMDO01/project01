@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+
+*, body  {
+  box-sizing: border-box;
+  overflow-x: hidden ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bg-home1 {
+  background-image: url("./assets/images/homepage1.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  background-position: center;
+}
+.bg-home2 {
+  background-image: url("./assets/images/plating_tree.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  top: -20rem;
+  background-position: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.footerbg{
+  background-image: url("./assets/images/grass-2029768_1280.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+
+/* .bg-image{
+  background-image: url("./assets/images/bigtree.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-origin: content-box;
+  
+} */
+.input-style{
+  size: 1rem;
+  padding: 0.75rem 3rem;
+  font-size: .85rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 2px solid #2a2c2e;
+  appearance: none;
+  border-radius: 0.25em;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  :focus{
+      color: #212529;
+      background-color: #fff;
+      border-color: #86b7fe;
+      outline: 0;
+      box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 25%);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  
 }
